@@ -149,6 +149,7 @@ type Upload struct {
 	Src string `yaml:"src"`
 	Dst string `yaml:"dst"`
 	Exc string `yaml:"exclude"`
+	Sync bool `yaml:"sync"`
 }
 
 // EnvVar represents an environment variable
